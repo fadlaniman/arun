@@ -17,6 +17,6 @@ Route::get('/', function () {
     return view('beranda');
 });
 
-Route::get('/tentang', function () {
-    return view('tentang');
+Route::get('/tentang/profile', function () {
+    return view('tentang.profile');
 });
